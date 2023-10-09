@@ -1,8 +1,21 @@
-name: Hide Sensitive Information
-on: push
+name: Create envfile
+
+on: [ push ]
+
 jobs:
-  print-secret-token:
+
+  create-envfile:
+ 
     runs-on: ubuntu-latest
+ 
     steps:
-      - name: echo a secret
-        run: echo "your secret token is ${{ secrets.FIREBASE_API_KEY}}"
+    - name: Make envfile
+      uses: SpicyPizza/create-envfile@v2.0
+      with:
+        envkey_DEBUG: false
+        envkey_SOME_API_KEY: "123456abcdef"
+        some_other_variable: foobar
+        directory: <directory_name>
+        file_name: .env
+        fail_on_empty: false
+        sort_keys: false
