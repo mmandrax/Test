@@ -10,7 +10,7 @@ jobs:
  
     steps:
     - name: Create .env file
-      uses: SpicyPizza/create-envfile@v2.0.2
+      uses: Test/create-envfile@v2.0.2
             
       with:
         envkey_DEBUG: false
