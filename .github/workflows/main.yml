@@ -1,8 +1,30 @@
-name: Hide Sensitive Information
-on: push
-jobs:
-  print-secret-token:
-    runs-on: ubuntu-latest
-    steps:
-      - name: echo a secret
-        run: echo "your secret token is verySecretToken"
+on:
+  pull_request:
+  - main
+  push:
+    branches:
+      - main
+- name: Run unit tests
+  env:
+    FIREBASE_API_KEY: ${{ secrets.FIREBASE_API_KEY}}
+    FIREBASE_AUTH_DOMAIN: ${{ secrets.FIREBASE_AUTH_DOMAIN }}
+    FIREBASE_DATABASE_URL: ${{ secrets.FIREBASE_DATABASE_URL }}
+    FIREBASE_PROJECT_ID: ${{ secrets.FIREBASE_PROJECT_ID }}
+    FIREBASE_STORAGE_BUCKET: ${{ secrets.FIREBASE_STORAGE_BUCKET}}
+    FIREBASE_FIREBASE_MESSAGING_SENDER_ID: ${{ secrets.FIREBASE_MESSAGING_SENDER_ID }}
+    FIREBASE_APP_ID: ${{ secrets.FIREBASE_APP_ID }}
+  run: yarn test:coverage
+- run: yarn lint
+- name: Cypress run # our e2e tests
+  uses: cypress-io/github-action@v2
+  with:
+    env: configFile=staging
+    start: yarn start
+  env:
+    FIREBASE_API_KEY: ${{ secrets.FIREBASE_API_KEY}}
+    FIREBASE_AUTH_DOMAIN: ${{ secrets.FIREBASE_AUTH_DOMAIN }}
+    FIREBASE_DATABASE_URL: ${{ secrets.FIREBASE_DATABASE_URL }}
+    FIREBASE_PROJECT_ID: ${{ secrets.FIREBASE_PROJECT_ID }}
+    FIREBASE_STORAGE_BUCKET: ${{ secrets.FIREBASE_STORAGE_BUCKET}}
+    FIREBASE_FIREBASE_MESSAGING_SENDER_ID: ${{ secrets.FIREBASE_MESSAGING_SENDER_ID }}
+    FIREBASE_APP_ID: ${{ secrets.FIREBASE_APP_ID }}
