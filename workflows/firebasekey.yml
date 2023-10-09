@@ -1,4 +1,8 @@
-# more GitHub Actions steps above...
+on:
+  pull_request:
+  push:
+    branches:
+      - main
 - name: Run unit tests
   env:
     FIREBASE_API_KEY: ${{ secrets.FIREBASE_API_KEY}}
