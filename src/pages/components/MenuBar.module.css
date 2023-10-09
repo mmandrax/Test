@@ -1,0 +1,57 @@
+.header {
+    background-color: #d9d9d9;
+    border: 1px solid;
+    border-color: #000000;
+    height: 81px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 1440px;
+  }
+  
+  .web {
+
+    left: 120px;
+    position: absolute;
+    top: 24px;
+    font-family: "DM Sans", Helvetica;
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: 30.5px;
+  }
+  
+
+.option4 {
+    color: #000000;
+    font-family: "DM Sans", Helvetica;
+    font-size: 16px;
+    font-weight: 700;
+    left: 1137px;
+    letter-spacing: 0;
+    line-height: 17.1px;
+    position: absolute;
+    top: 32px;
+
+  }
+ 
+    
+   .overlap5 {
+    background-color: #000000;
+    border: 1px solid;
+    border-color: #ffffff;
+    border-radius: 8px;
+    height: 49px;
+    left: 1216px;
+    position: absolute;
+    top: 16px;
+    width: 178px;
+  }
+  
+   .option5 {
+    color: #ffffff;
+    font-family: "DM Sans", Helvetica;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 2px;
+  }

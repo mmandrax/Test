@@ -1,0 +1,50 @@
+.group45 {
+    height: 48px;
+    left: 1232px;
+    position: absolute;
+    top: 106px;
+    width: 107px;
+    border-radius: 8px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid;
+    border-color: #000000;
+    cursor: pointer;
+  }
+  
+ 
+  
+   .web6 {
+   
+    font-family: "DM Sans", Helvetica;
+    font-size: 15px;
+    font-weight: 700;
+
+ 
+  }
+  
+
+    
+   .group46 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    height: 48px;
+    left: 1072px;
+    position: absolute;
+    top: 106px;
+    width: 148px;
+    border: 1px solid;
+    border-color: #000000;
+    border-radius: 8px;
+  }
+  
+  .img2 {
+    width: 35px;
+    height: 25px;
+  }
+  

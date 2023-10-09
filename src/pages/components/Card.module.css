@@ -1,0 +1,39 @@
+.inputasbutton {
+  opacity: 0.011;
+ z-index: 100;
+ display: none;
+ 
+ 
+}
+
+.inputasbutton:checked + .buttonlabel{
+  background-color: #090808;
+  
+  border-color: #f2ecec;
+
+  color: white;
+  
+  
+}
+
+.buttonlabel {
+  height: 55px;
+  font-family: "DM Sans", Helvetica;
+  font-size: 18px;
+  font-weight: 700;
+  width: 300px;
+  cursor: pointer;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 8px;
+  cursor: pointer;
+  display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+
+  
+
+}
+

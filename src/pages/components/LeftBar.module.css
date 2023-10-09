@@ -1,0 +1,38 @@
+.img2 {
+  width: 35px;
+  height: 25px;
+}
+
+.group42 {
+  
+    left: 0;
+    position: absolute;
+    top: 80px;
+    width: 105px;
+    margin-top: 0.2rem;
+  }
+
+  .group44 {
+    height: 20px;
+    left: 122px;
+    position: absolute;
+    top: 35px;
+    width: 71px;
+    display: flex;
+    color: #000000;
+    font-family: "DM Sans", Helvetica;
+    font-size: 16px;
+    font-weight: 700;
+    align-items: center;
+  }
+
+  .bulbwrapper {
+    border: 1px solid;
+    border-color: #000000;
+    height: 87px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+  

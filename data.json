@@ -1,0 +1,136 @@
+{
+  "Basic_Sounds" :  {
+        "categoryId": 1,
+        "categoryName": "Basic Sounds",
+        "attributes": [],
+        "sounds": {
+            "welcome":[
+                {"id": 1,
+                "name": "Basic_Sounds_welcome_reduced1.wav"
+                },
+                {"id": 2,
+                "name": "Basic_Sounds_welcome_reduced2.wav"
+                },
+                {"id": 3,
+                "name": "Basic_Sounds_welcome_reduced3.wav"
+                },
+    
+                {"id": 4,
+                "name": "Basic_Sounds_welcome_moderate1.wav"
+                },
+                {"id": 5,
+                "name": "Basic_Sounds_welcome_moderate2.wav"
+                },
+                {"id": 6,
+                "name": "Basic_Sounds_welcome_moderate3.wav"
+                },
+                {"id": 7,
+                "name": "Basic_Sounds_welcome_complex1.wav"
+                },
+                {"id": 8,
+                "name": "Basic_Sounds_welcome_complex2.wav"
+                },
+                {"id": 9,
+                "name": "Basic_Sounds_welcome_complex3.wav"
+                }
+            ],
+            "confirmation": [
+                {"id": 10,
+                "name": "Basic_Sounds_confirmation_reduced1.wav"
+                },
+                {"id": 11,
+                "name": "Basic_Sounds_confirmation_reduced2.wav"
+                },
+                {"id": 12,
+                "name": "Basic_Sounds_confirmation_reduced3.wav"
+                },
+                {"id": 13,
+                "name": "Basic_Sounds_confirmation_moderate1.wav"
+                },
+                {"id": 14,
+                "name": "Basic_Sounds_confirmation_moderate2.wav"
+                },
+                {"id": 15,
+                "name": "Basic_Sounds_confirmation_moderate3.wav"
+                },
+                {"id": 16,
+                "name": "Basic_Sounds_confirmation_complex1.wav"
+                },
+                {"id": 17,
+                "name": "Basic_Sounds_confirmation_complex2.wav"
+                },
+                {"id": 18,
+                "name": "Basic_Sounds_confirmation_complex3.wav"
+                }
+            ]
+    }
+    },
+    "Bright_Materials" :{
+        "categoryId": 2,
+        "categoryName": "Bright Materials",
+        "attributes": ["Bright", "Bold"],
+        "sounds": {
+            "welcome":[
+                {"id": 91,
+                "name": "Bright_Materials_welcome_reduced1.wav"
+                },
+                {"id": 92,
+                "name": "Bright_Materials_welcome_reduced2.wav"
+                },
+                {"id": 93,
+                "name": "Bright_Materials_welcome_reduced3.wav"
+                },
+                {"id": 94,
+                "name": "Bright_Materials_welcome_moderate1.wav"
+                },
+                {"id": 95,
+                "name": "Bright_Materials_welcome_moderate2.wav"
+                },
+                {"id": 96,
+                "name": "Bright_Materials_welcome_moderate3.wav"
+                },
+                {"id": 97,
+                "name": "Bright_Materials_welcome_complex1.wav"
+                },
+                {"id": 98,
+                "name": "Bright_Materials_welcome_complex2.wav"
+                },
+                {"id": 99,
+                "name": "Bright_Materials_welcome_complex3.wav"
+                }
+            ],
+            "confirmation": [
+                {"id": 100,
+                "name": "Bright_Materials_confirmation_reduced1.wav"
+                },
+                {"id": 101,
+                "name": "Bright_Materials_confirmation_reduced2.wav"
+                },
+                {"id": 102,
+                "name": "Bright_Materials_confirmation_reduced3.wav"
+                },
+                {"id": 103,
+                "name": "Bright_Materials_confirmation_moderate1.wav"
+                },
+                {"id": 104,
+                "name": "Bright_Materials_confirmation_moderate2.wav"
+                },
+                {"id": 105,
+                "name": "Bright_Materials_confirmation_moderate3.wav"
+                },
+                {"id": 106,
+                "name": "Bright_Materials_confirmation_complex1.wav"
+                },
+                {"id": 107,
+                "name": "Bright_Materials_confirmation_complex2.wav"
+                },
+                {"id": 108,
+                "name": "Bright_Materials_confirmation_complex3.wav"
+                }
+            ]
+    }
+    }
+}
+
+
+

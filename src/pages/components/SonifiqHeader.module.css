@@ -1,0 +1,41 @@
+.overlap2 {
+    height: 409px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 1440px;
+    }
+
+    .union2 {
+
+        left: 121px;
+        position: absolute;
+        top: 170px;
+        
+        }
+        
+        .web4 {
+        color: #ffffff;
+        font-family: "DM Sans", Helvetica;
+        font-size: 30px;
+        font-weight: 700;
+        left: 177px;
+        letter-spacing: 0;
+        line-height: 30.5px;
+        position: absolute;
+        top: 226px;
+        white-space: nowrap;
+        }
+        
+        .p {
+        color: #ffffff;
+        font-family: "DM Sans", Helvetica;
+        font-size: 40px;
+        font-weight: 700;
+        left: 177px;
+        letter-spacing: 0;
+        line-height: 40.7px;
+        position: absolute;
+        top: 267px;
+        white-space: nowrap;
+        }

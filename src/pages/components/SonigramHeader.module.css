@@ -1,0 +1,34 @@
+.headertext {
+  color: var(--x-1e-1e-1e);
+  font-family: "DM Sans", Helvetica;
+  font-size: 30px;
+  font-weight: 700;
+  left: 40px;
+
+  line-height: 20px;
+  position: absolute;
+  top: 35px;
+}
+  
+   .group13 {
+    background-color: #000000;
+    border-radius: 8px;
+    height: 47px;
+    left: 620px;
+    position: absolute;
+    top: 23px;
+    width: 205px;
+  }
+   
+  .webapp {
+    color: #ffffff;
+    font-family: "DM Sans", Helvetica;
+    font-size: 20px;
+    font-weight: 700;
+    left: 20px;
+    letter-spacing: 0;
+    line-height: 22.4px;
+    position: absolute;
+    top: 12px;
+    white-space: nowrap;
+  }
