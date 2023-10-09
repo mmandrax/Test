@@ -16,6 +16,7 @@ jobs:
         envkey_DEBUG: false
         envkey_SOME_API_KEY: "123456abcdef"
         some_other_variable: foobar
+        directory: home/Test/
         file_name: .env
         fail_on_empty: false
         sort_keys: false
